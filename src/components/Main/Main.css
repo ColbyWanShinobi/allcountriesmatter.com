@@ -1,0 +1,13 @@
+.world-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.country-name {
+  font-weight: bold;
+}
+
+.flag {
+  border: 2px solid black
+}

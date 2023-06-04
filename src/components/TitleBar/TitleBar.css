@@ -1,0 +1,12 @@
+.title-bar {
+  flex-grow: 1;
+
+}
+
+.menu-button {
+  margin-right: 5px;
+}
+
+.title-text {
+  flex-grow: 1;
+}
