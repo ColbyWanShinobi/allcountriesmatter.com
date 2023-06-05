@@ -12,6 +12,8 @@ import './Main.css';
 
 function Main() {
   const [countries, setCountries] = useState([]);
+  const currentDate = new Date();
+  const formattedDate = currentDate.toDateString();
 
   useEffect(() => {
     // Fetch country data from an API or use a static JSON file
@@ -42,7 +44,7 @@ function Main() {
   return (
     <Container maxWidth="md">
       <TitleBar/>
-      <p>July 4, 2020</p>
+      <p>{formattedDate}</p>
       <p>As of today, we have celebrated the independence of our nation from the unjust rule of the British Monarchy <IndependenceDay/> times</p>
       <p>But our country shouldn't be the only one to be celebrated. In the pursuit of true equality, it would be inappropriate to focus on just ONE country when ALL COUNTRIES deserve to be celebrated.</p>     
       <p>So please spend some time this Fourth of July thinking about, and learning about any other country BESIDES The United States of America. I've providea a list of them below.</p>
