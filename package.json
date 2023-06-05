@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master -r git@github.com:allcountriesmatter/allcountriesmatter.github.io.git",
+    "deploy": "gh-pages -d build -b master -r",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
