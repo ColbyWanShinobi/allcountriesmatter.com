@@ -10,7 +10,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master -r git@github.com:allcountriesmatter/allcountriesmatter.github.io.git"
+    "deploy": "gh-pages -d dist -b master -r git@github.com:allcountriesmatter/allcountriesmatter.github.io.git"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
