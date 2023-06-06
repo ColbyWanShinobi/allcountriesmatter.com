@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Container from '@material-ui/core/Container';
-import Flag from 'react-world-flags'
+//import Flag from 'react-world-flags'
 //import Countries from 'world-countries';
 
 import TitleBar from '../TitleBar/TitleBar';
@@ -56,7 +56,7 @@ function Main() {
         if (country.cca2 !== 'US' && country.cca2 !== 'UM' && country.cca2 !== 'AQ') {
           return (
             <div className='independent-box' key={country.cca2}>
-              <a href={country.maps.googleMaps} target="_blank" rel="noreferrer"><Flag code={country.cca2} height='128' className='flag'/></a>
+              <a href={country.maps.googleMaps} target="_blank" rel="noreferrer"><img src={country.flags.png} height='128' className='flag'></img></a>
               <br/>
               <span className='country-name'>{country.name.common}</span>
               <br/>
